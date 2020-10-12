@@ -1,0 +1,33 @@
+.Pokecard {
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 0 2rem 3rem rgba(0,0,0,.2);
+}
+
+.Pokecard-heading {
+    font-size: 2rem;
+    color: salmon;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+
+.Pokecard-image{
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.Pokecard-image img {
+    display: block;
+    width: 100%;
+    transition: all .2s ease;
+}
+.Pokecard-image:hover img {
+    transform: scale(1.2);
+}
+
+.Pokecard-details {
+    font-size: 1.4rem;
+}

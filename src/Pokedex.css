@@ -1,0 +1,12 @@
+.Pokedex-title {
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.Pokedex-cards {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, minmax(min-content, 20rem));
+    grid-gap: 3rem;
+}
