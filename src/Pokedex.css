@@ -1,7 +1,6 @@
-.Pokedex-title {
-    padding: 1.5rem;
+.Pokedex-details {
     text-align: center;
-    font-size: 2rem;
+    margin-bottom: 3rem;
 }
 
 .Pokedex-cards {
@@ -9,4 +8,21 @@
     justify-content: center;
     grid-template-columns: repeat(4, minmax(min-content, 20rem));
     grid-gap: 3rem;
+}
+
+.Pokedex-winlose {
+    display: inline-block;
+    padding: 1rem;
+    color: #fff;
+    margin: 2rem 0 1rem;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.Pokedex-winlose--win {
+    background-color: limegreen;
+}
+
+.Pokedex-winlose--lose {
+    background-color: firebrick;
 }
